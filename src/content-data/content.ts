@@ -13,7 +13,7 @@ export const content = {
     primaryBtnGradientTxt: "Hire Me ➡",
     primaryBtnUrl: "mailto:enrique.alcacer@gmail.com",
     secondaryBtnBracketTxt: "My Portfolio",
-    secondaryBtnUrl: "https://github.com/eralcacer",
+    secondaryBtnUrl: "https://github.com/tcabrera5",
   },
   MainInformation: {
     name: "Enrique Alcacer",
