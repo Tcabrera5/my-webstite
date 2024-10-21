@@ -1,0 +1,102 @@
+.footer-comp {
+  margin-top: 2em;
+  display: flex;
+  width: -webkit-fill-available;
+  height: auto;
+  background-image: linear-gradient(
+    180deg,
+    var(--dark-blue-background),
+    var(--blue-background)
+  );
+  padding: 2em 4em;
+  justify-content: space-around;
+  border-top: 2px solid;
+  border-image: linear-gradient(
+      90deg,
+      var(--red-coral-logo-color),
+      var(--yellow-logo-color)
+    )
+    1 0 0 0;
+}
+.left-footer {
+  width: 20%;
+  height: auto;
+}
+.menu-footer {
+  width: 70%;
+  display: block;
+  width: fit-content;
+  height: auto;
+}
+.menu-footer .menu-list-comp {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 3em;
+  list-style: none;
+  text-align: center;
+}
+.menu-footer .menu-list-comp li:first-child {
+  color: var(--white-color) !important;
+}
+.menu-footer .menu-list-comp li:nth-last-child(1) {
+  margin-right: 0 !important;
+}
+.menu-footer .social-media-comp {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+@media only screen and (max-width: 1000px) {
+  .footer-comp {
+    margin-top: 2em;
+    display: flex;
+    width: fit-content;
+    height: auto;
+    background-image: linear-gradient(
+      180deg,
+      var(--dark-blue-background),
+      var(--blue-background)
+    );
+    padding: 2em 4em;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .menu-footer .menu-list-comp {
+    display: block;
+    margin: auto;
+  }
+  .menu-footer .social-media-comp {
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    margin: 1em 0;
+  }
+  .menu-footer {
+    width: 100%;
+    margin: auto;
+  }
+  .menu-list-comp {
+    width: -webkit-fill-available;
+    padding: 0;
+    margin: auto;
+  }
+  .menu-footer .menu-list-comp li:nth-last-child(1) {
+    margin: auto;
+  }
+  .menu-footer li {
+    margin: 12px auto;
+  }
+  .menu-list-comp li a {
+    margin: 12px auto;
+    text-align: center;
+  }
+  .menu-footer h2 {
+    margin: 1.5em auto 0.8em auto;
+    text-align: center;
+  }
+  .left-footer {
+    width: 100%;
+    text-align: center;
+  }
+}
